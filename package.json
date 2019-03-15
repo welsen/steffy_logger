@@ -1,0 +1,31 @@
+{
+  "name": "@steffi/logger",
+  "version": "1.0.0",
+  "description": "steffi home assistant logger plugin",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo 'Not implemented yet!'",
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.flnf.hu/ono/steffi-logger.git"
+  },
+  "keywords": [
+    "steffi",
+    "home",
+    "assistant",
+    "logger",
+    "plugin"
+  ],
+  "author": "David Onofer <david.onofer@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.flnf.hu"
+  },
+  "dependencies": {
+    "@steffi/core": "^1.0.0"
+  }
+}
