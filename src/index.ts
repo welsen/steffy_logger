@@ -4,6 +4,6 @@ import { LoggerPlugin } from './logger';
 export function registerLogger() {
   registerInjectionToken('LoggerPlugin');
   injector.bind<ILogger>(useInjectionToken('LoggerPlugin')).to(LoggerPlugin).inSingletonScope();
-
 }
+
 export * from './logger';
