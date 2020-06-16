@@ -4,6 +4,7 @@
     "baseUrl": ".",
     "target": "es2017",
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,

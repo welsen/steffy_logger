@@ -1,6 +1,7 @@
-import { IPlugin, injectable, Logger, ILogger } from '@steffi/core';
+import { IPlugin, Logger, ILogger } from '@steffy/core';
+import { Singleton } from '@steffy/di';
 
-@injectable()
+@Singleton()
 export class LoggerPlugin implements IPlugin {
   public pluginName = 'Logger';
   private _logger: ILogger;

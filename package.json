@@ -1,10 +1,10 @@
 {
-  "name": "@steffi/logger",
-  "version": "1.0.0",
-  "description": "steffi home assistant logger plugin",
+  "name": "@steffy/logger",
+  "version": "1.9.1",
+  "description": "steffi logger plugin",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo 'Not implemented yet!'",
+    "test": "echo \"Warning: no test specified\" && exit 0",
     "prepare": "npm run build",
     "build": "tsc"
   },
@@ -26,7 +26,8 @@
     "registry": "https://npm.flnf.hu"
   },
   "dependencies": {
-    "@steffi/core": "^1.0.0"
+    "@steffy/core": "^1.9.1",
+    "@steffy/di": "^1.0.0"
   },
   "devDependencies": {
     "typescript": "^3.8.3"
