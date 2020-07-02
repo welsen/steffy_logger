@@ -1,6 +1,6 @@
 {
   "name": "@steffy/logger",
-  "version": "1.9.1",
+  "version": "1.9.2",
   "description": "steffi logger plugin",
   "main": "dist/index.js",
   "scripts": {
@@ -10,12 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.flnf.hu/ono/steffi-logger.git"
+    "url": "https://git.flnf.hu/ono/steffy-logger.git"
   },
   "keywords": [
-    "steffi",
-    "home",
-    "assistant",
+    "steffy",
     "logger",
     "plugin"
   ],
