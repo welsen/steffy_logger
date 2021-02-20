@@ -21,7 +21,8 @@
   "license": "MIT",
   "private": false,
   "publishConfig": {
-    "registry": "https://npm.flnf.hu"
+    "registry": "https://reristry.npmjs.org",
+    "access": "public"
   },
   "dependencies": {
     "@steffy/core": "^1.9.1",
