@@ -17,6 +17,13 @@ test:
   script:
     - npm run test
 
+test-2:
+  except: 
+    - tags
+  stage: test
+  script:
+    - npm run test
+
 build:
   except:
     - tags
